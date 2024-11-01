@@ -1,0 +1,20 @@
+/* Reset CSS */
+* { margin: 0; padding: 0; }
+body {
+    line-height:1;
+    font-family:'Open Sans', sans-serif;
+}
+#container { width: 980px; margin: 0 auto; box-shadow: 0 0 1em #cccccc; }
+header { padding: 20px; }
+header h1 { color: #b5b5b5; }
+nav { background-color: #1f5faa; }
+nav a {
+    padding: 15px 30px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+#hero { background-color: #e4e4e5; padding: 50px 20px; margin-bottom: 20px; }
+#main { float: left; width: 640px; padding: 20px; }
+#sidebar { float: left; width: 260px; padding: 20px; }
+footer { clear: both; background-color: #1d1d1d; padding: 20px; color: #eee; }
